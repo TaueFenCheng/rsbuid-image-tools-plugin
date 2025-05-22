@@ -1,7 +1,7 @@
 {
-  "name": "rsbuild-plugin-example",
+  "name": "rsbuild-image-tools-plugin",
   "version": "0.0.0",
-  "repository": "https://github.com/rspack-contrib/rsbuild-plugin-template",
+  "repository": "https://github.com/TaueFenCheng/rsbuid-image-tools-plugin.git",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -15,6 +15,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": ["dist"],
+  "maintainers": ["tangtaue"],
   "scripts": {
     "build": "rslib build",
     "dev": "rslib build --watch",
