@@ -1,12 +1,12 @@
 import type { RsbuildPlugin } from '@rsbuild/core';
 
-export type PluginExampleOptions = {
+export type PluginImageToolsOptions = {
   foo?: string;
   bar?: boolean;
 };
 
 export const pluginExample = (
-  options: PluginExampleOptions = {},
+  options: PluginImageToolsOptions = {},
 ): RsbuildPlugin => ({
   name: 'plugin-example',
 
